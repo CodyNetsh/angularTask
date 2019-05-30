@@ -1,0 +1,51 @@
+
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(247, 238, 238);
+
+}
+
+ul.topnav li {
+  float: left;
+  display: block;
+  color: rgb(172, 8, 8);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+li a.active {
+  background-color: #4CAF50;
+  text-decoration: none;
+  color: rgb(199, 18, 18);
+
+}
+
+li a:hover{
+  background-color: rgb(206, 12, 12);
+  color: rgb(202, 10, 10);
+  border-bottom: 2px solid red;
+}
+.topnav a.hover{   
+  border-bottom: 2px solid red;
+}
+
+
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a.active {background-color: rgb(243, 217, 217);}
+ul.topnav li a.active {color: rgb(34, 9, 9);}
+ul.topnav li a.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li a.right,
+  ul.topnav li {float: none};
+  
+}
